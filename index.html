@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aldridge UTC @MediaCity — The best in everyone™</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       TOPBAR — phone, email, links
+       No images in this section
+  ══════════════════════════════════════════════ -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="tel:01616613947" class="tb-item">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="14"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.773-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          0161 661 3947
+        </a>
+        <a href="mailto:information@utcmediacityuk.org.uk" class="tb-item">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="14"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+          information@utcmediacityuk.org.uk
+        </a>
+      </div>
+      <div class="topbar-right">
+        <a href="#" class="tb-link">Safeguarding</a>
+        <a href="#" class="tb-link">Term Dates</a>
+        <a href="#" class="tb-link">Policies</a>
+        <button class="tb-icon-btn" aria-label="Language">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"/></svg>
+        </button>
+        <button class="tb-icon-btn" aria-label="Search">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════
+       NAVBAR — dark navy pill card
+       No images in this section — SVG logo only
+  ══════════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+
+      <a href="#" class="nav-logo">
+        <div class="logo-a">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <circle cx="26" cy="26" r="26" fill="#1B3A6B"/>
+            <path d="M14 38 L26 12 L26 38 Z" fill="#3CB97A"/>
+            <path d="M26 12 L38 38 L26 38 Z" fill="white" opacity=".9"/>
+            <rect x="18" y="30" width="16" height="3" rx="1.5" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-words">
+          <span class="logo-main">ALDRIDGE UTC</span>
+          <span class="logo-sub">@MEDIACITY</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#" class="nav-link">Our School</a>
+        <a href="#" class="nav-link">Curriculum</a>
+        <a href="#" class="nav-link">Students</a>
+        <a href="#" class="nav-link">Parents</a>
+        <a href="#" class="nav-link">News</a>
+        <a href="#" class="nav-link">SEND</a>
+        <a href="#" class="nav-pill nav-pill--filled">Admissions</a>
+        <a href="#" class="nav-pill nav-pill--outlined">Contact Us</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Our School</a>
+      <a href="#">Curriculum</a>
+      <a href="#">Students</a>
+      <a href="#">Parents</a>
+      <a href="#">News</a>
+      <a href="#">SEND</a>
+      <a href="#" class="mob-pill">Admissions</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </header>
+
+
+  <!-- ══════════════════════════════════════════════
+       HERO — large rounded navy card
+       Left: text panel | Right: photo
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE HERO SLIDE PHOTOS:
+  Each slide has ONE <img> inside .hero-photo-panel
+  Change src="images/hero-1.jpg" to your filename.
+
+  TO ADD A SLIDE: copy a full .hero-slide block
+  and paste before the closing div of #heroTrack.
+
+  TO REMOVE A SLIDE: delete the whole .hero-slide block.
+  Dots update automatically — no JS changes needed.
+  ══════════════════════════════════════════════ -->
+  <section class="hero-section">
+    <div class="hero-card" id="heroCard">
+      <div class="hero-slider-wrap">
+        <div class="hero-track" id="heroTrack">
+
+          <!-- ▼ HERO SLIDE 1 — replace src with your image ▼ -->
+          <div class="hero-slide">
+            <div class="hero-text-panel">
+              <p class="hero-welcome">Welcome to</p>
+              <h1>Aldridge UTC<br/>@MediaCity</h1>
+              <p class="hero-desc">We are a unique technical and creative college for 13–18-year-olds, preparing our learners for future careers in the digital media sector.</p>
+              <div class="hero-btns">
+                <a href="#" class="hbtn hbtn--white">Discover</a>
+                <a href="#" class="hbtn hbtn--outline">Join Us</a>
+              </div>
+            </div>
+            <div class="hero-photo-panel">
+              <img src="images/1.jpg" alt="Aldridge UTC MediaCity building" loading="eager" />
+              <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+            </div>
+          </div>
+
+          <!-- ▼ HERO SLIDE 2 — replace src with your image ▼ -->
+          <div class="hero-slide">
+            <div class="hero-text-panel">
+              <p class="hero-welcome">Now Open</p>
+              <h1>Applications for<br/>September 2026</h1>
+              <p class="hero-desc">Secure your place at MediaCity's specialist digital and creative college. Our open events are filling fast — register your interest today.</p>
+              <div class="hero-btns">
+                <a href="#" class="hbtn hbtn--white">Apply Now</a>
+                <a href="#" class="hbtn hbtn--outline">Open Events</a>
+              </div>
+            </div>
+            <div class="hero-photo-panel">
+              <img src="images/2.jpg" alt="Students in class" loading="lazy" />
+              <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+            </div>
+          </div>
+
+          <!-- ▼ HERO SLIDE 3 — replace src with your image ▼ -->
+          <div class="hero-slide">
+            <div class="hero-text-panel">
+              <p class="hero-welcome">Explore</p>
+              <h1>Curriculum &amp;<br/>Specialisms</h1>
+              <p class="hero-desc">From film production and cybersecurity to games design and data science — choose a specialist pathway and build real industry skills.</p>
+              <div class="hero-btns">
+                <a href="#" class="hbtn hbtn--white">Curriculum</a>
+                <a href="#" class="hbtn hbtn--outline">Find Out More</a>
+              </div>
+            </div>
+            <div class="hero-photo-panel">
+              <img src="images/3.jpg" alt="Creative media students" loading="lazy" />
+              <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+            </div>
+          </div>
+
+          <!--
+          TO ADD MORE SLIDES copy this block and fill in your details:
+
+          <div class="hero-slide">
+            <div class="hero-text-panel">
+              <p class="hero-welcome">Your Eyebrow Text</p>
+              <h1>Your Headline<br/>Here</h1>
+              <p class="hero-desc">Your description text here.</p>
+              <div class="hero-btns">
+                <a href="#" class="hbtn hbtn--white">Button 1</a>
+                <a href="#" class="hbtn hbtn--outline">Button 2</a>
+              </div>
+            </div>
+            <div class="hero-photo-panel">
+              <img src="images/hero-slide-4.jpg" alt="Describe your photo" loading="lazy" />
+            </div>
+          </div>
+          -->
+
+        </div>
+
+        <!-- Dots auto-generated by script.js — do not edit -->
+        <div class="hero-dots" id="heroDots"></div>
+      </div>
+
+      <!-- Aldridge Education strip — no image, SVG only -->
+      <div class="hero-strip">
+        <div class="hero-strip-inner">
+          <div class="strip-logo">
+            <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+              <circle cx="26" cy="26" r="26" fill="#1B3A6B"/>
+              <path d="M14 38 L26 12 L26 38 Z" fill="#3CB97A"/>
+              <path d="M26 12 L38 38 L26 38 Z" fill="white" opacity=".9"/>
+              <rect x="18" y="30" width="16" height="3" rx="1.5" fill="white"/>
+            </svg>
+            <div class="strip-logo-text">
+              <span>ALDRIDGE</span>
+              <span>EDUCATION</span>
+            </div>
+          </div>
+          <span class="strip-tagline">Part of the Aldridge Education family of schools.</span>
+          <span class="strip-chevron">›</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       WHY CHOOSE UTCMC — split layout
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE THE WHY-SECTION PHOTO:
+  Find the img tag inside .why-photo below and
+  change src="images/why-photo.jpg" to your file.
+  ══════════════════════════════════════════════ -->
+  <section class="why-section">
+    <div class="why-inner">
+
+      <!-- Decorative SVG icon — no image file needed -->
+      <div class="why-deco" aria-hidden="true">
+        <svg viewBox="0 0 120 70" fill="none" xmlns="http://www.w3.org/2000/svg" width="120">
+          <path d="M10 55 Q18 38 10 22" stroke="#1B3A6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M20 60 Q32 40 20 18" stroke="#1B3A6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M30 64 Q46 42 30 14" stroke="#1B3A6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="68" cy="38" r="10" stroke="#1B3A6B" stroke-width="3" fill="none"/>
+          <path d="M90 20 L110 38 L90 56 Z" fill="#1B3A6B"/>
+        </svg>
+      </div>
+
+      <div class="why-text">
+        <p class="eyebrow">Your First Choice</p>
+        <h2>Why Choose UTCMC?</h2>
+        <p>At UTC MediaCity, students learn in a specialist creative and technical environment designed around the industries they want to join. With expert teaching, employer links and hands-on projects, we help our learners build the confidence, skills and experience to take their next step.</p>
+        <div class="why-features">
+          <div class="why-feat">
+            <h3>Specialist pathways in media, digital and creative technology</h3>
+          </div>
+          <div class="why-feat">
+            <h3>Real industry connections and practical, project-based learning</h3>
+          </div>
+        </div>
+        <div class="why-btns">
+          <a href="#" class="btn btn--navy">Ready to Join?</a>
+          <a href="#" class="btn btn--outline-navy">Find Out More ›</a>
+        </div>
+      </div>
+
+      <!-- ▼ WHY-SECTION PHOTO — replace src with your image ▼ -->
+      <div class="why-photo">
+        <img src="images/welcome-img.jpg" alt="Students at MediaCity" loading="lazy" />
+        <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+      </div>
+
+    </div>
+
+    <!-- Decorative elements — no image files needed -->
+    <div class="dot-pattern" aria-hidden="true"></div>
+    <div class="wave-deco" aria-hidden="true">
+      <svg viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="200">
+        <path d="M0 20 Q25 5 50 20 Q75 35 100 20 Q125 5 150 20 Q175 35 200 20" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+        <path d="M0 30 Q25 15 50 30 Q75 45 100 30 Q125 15 150 30 Q175 45 200 30" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+        <path d="M0 10 Q25 -5 50 10 Q75 25 100 10 Q125 -5 150 10 Q175 25 200 10" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       EXPLORE YOUR WAY — 3 large image cards
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE EXPLORE CARD PHOTOS:
+  Each .explore-card has ONE img tag.
+  Change src="images/explore-1.jpg" to your filename.
+  The label text is in .explore-card-label below the img.
+  ══════════════════════════════════════════════ -->
+  <section class="explore-section">
+    <div class="explore-inner">
+      <p class="eyebrow eyebrow--center">User Journeys or Signposting</p>
+      <h2 class="explore-heading">Explore UTCMC Your Way</h2>
+      <p class="explore-sub">Explore UTC your way and find the information that matters most to you, whether you are considering joining us, preparing for your next step, or looking to understand life at UTC MediaCity.</p>
+
+      <div class="explore-cards">
+
+        <!-- ▼ EXPLORE CARD 1 — replace src with your image ▼ -->
+        <a href="#" class="explore-card">
+          <img src="images/1.jpg" alt="Join Us" loading="lazy" />
+          <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+          <div class="explore-card-overlay"></div>
+          <span class="explore-card-label">Join Us</span>
+        </a>
+
+        <!-- ▼ EXPLORE CARD 2 — replace src with your image ▼ -->
+        <a href="#" class="explore-card">
+          <img src="images/2.jpg" alt="Curriculum and Specialisms" loading="lazy" />
+          <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+          <div class="explore-card-overlay"></div>
+          <span class="explore-card-label">Curriculum and<br/>Specialisms</span>
+        </a>
+
+        <!-- ▼ EXPLORE CARD 3 — replace src with your image ▼ -->
+        <a href="#" class="explore-card">
+          <img src="images/3.jpg" alt="Student Life" loading="lazy" />
+          <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+          <div class="explore-card-overlay"></div>
+          <span class="explore-card-label">Student Life</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       FIND YOUR FUTURE — navy bg, card + photo
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE THE FUTURE SECTION PHOTO:
+  Change src="images/future-photo.jpg" below.
+  ══════════════════════════════════════════════ -->
+  <section class="future-section">
+    <div class="future-wave-deco" aria-hidden="true">
+      <svg viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg" width="60">
+        <path d="M30 10 Q55 40 30 70 Q5 100 30 130 Q55 160 30 190" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity=".3"/>
+        <path d="M44 0 Q70 30 44 60 Q18 90 44 120 Q70 150 44 180" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity=".2"/>
+      </svg>
+    </div>
+    <div class="future-inner">
+
+      <!-- White card — text only, no images needed here -->
+      <div class="future-card">
+        <h2>Find Your Future at<br/>UTC MediaCity</h2>
+        <p>Join a creative, ambitious college where your passion for media, digital and technology can become your next big opportunity.</p>
+        <div class="future-btns">
+          <a href="#" class="btn btn--navy">Find Out More</a>
+          <a href="#" class="btn btn--outline-navy">Meet The Team</a>
+        </div>
+      </div>
+
+      <!-- ▼ FUTURE SECTION PHOTO — replace src with your image ▼ -->
+      <div class="future-photo">
+        <img src="images/future-photo.jpg" alt="Students at green screen studio" loading="lazy" />
+        <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       NEWS & EVENTS
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE NEWS CARD PHOTOS:
+  Each .nc-img has ONE img tag.
+  Change src="images/news-1.jpg" to your filename.
+
+  TO ADD A NEWS CARD: copy a .news-card block.
+  TO REMOVE A NEWS CARD: delete a .news-card block.
+  ══════════════════════════════════════════════ -->
+  <section class="news-events-section">
+    <div class="ne-inner">
+      <div class="ne-header">
+        <p class="eyebrow eyebrow--center">Past and Future Events</p>
+        <h2>What's Happening at UTCMC</h2>
+        <p class="ne-sub">Stay up to date with the latest news, achievements and events from UTC@MediaCity, and see how our students, staff and partners are bringing learning to life across our creative and digital community.</p>
+      </div>
+
+      <div class="ne-cols">
+
+        <!-- Latest News column -->
+        <div class="ne-news">
+          <h3>Latest News</h3>
+          <div class="news-cards">
+
+            <!-- ▼ NEWS CARD 1 — replace src with your image ▼ -->
+            <a href="#" class="news-card">
+              <div class="nc-img">
+                <img src="images/news-1.jpg" alt="Open Event" loading="lazy" />
+                <!-- Change to: src="images/YOUR-NEWS-PHOTO.jpg" -->
+              </div>
+              <div class="nc-body">
+                <div class="nc-meta">
+                  <span class="nc-tag">News</span>
+                  <span class="nc-date">26 Aug 2025</span>
+                </div>
+                <h4>Open Event</h4>
+                <span class="nc-more">Read More ›</span>
+              </div>
+            </a>
+
+            <!-- ▼ NEWS CARD 2 — replace src with your image ▼ -->
+            <a href="#" class="news-card">
+              <div class="nc-img">
+                <img src="images/news-2.jpg" alt="Next Open Event" loading="lazy" />
+                <!-- Change to: src="images/YOUR-NEWS-PHOTO.jpg" -->
+              </div>
+              <div class="nc-body">
+                <div class="nc-meta">
+                  <span class="nc-tag">News</span>
+                  <span class="nc-date">16 Aug 2024</span>
+                </div>
+                <h4>Next Open Event Now Live!</h4>
+                <span class="nc-more">Read More ›</span>
+              </div>
+            </a>
+
+            <!--
+            TO ADD A 3RD NEWS CARD copy this block:
+
+            <a href="#" class="news-card">
+              <div class="nc-img">
+                <img src="images/news-3.jpg" alt="Your news title" loading="lazy" />
+              </div>
+              <div class="nc-body">
+                <div class="nc-meta">
+                  <span class="nc-tag">News</span>
+                  <span class="nc-date">DD Mon YYYY</span>
+                </div>
+                <h4>Your News Headline</h4>
+                <span class="nc-more">Read More ›</span>
+              </div>
+            </a>
+            -->
+
+          </div>
+          <a href="#" class="btn btn--navy" style="margin-top:28px;">View all News</a>
+        </div>
+
+        <!-- Upcoming Events column — no images, text only -->
+        <div class="ne-events">
+          <h3>Upcoming Events</h3>
+          <div class="events-list">
+
+            <div class="event-item">
+              <div class="event-date-box">
+                <span class="edb-day-name">Saturday</span>
+                <span class="edb-day">27</span>
+              </div>
+              <div class="event-info">
+                <span class="event-month">June</span>
+                <p class="event-title">Sample Diary Date 2</p>
+              </div>
+            </div>
+            <div class="event-divider"></div>
+
+            <div class="event-item">
+              <div class="event-date-box">
+                <span class="edb-day-name">Tuesday</span>
+                <span class="edb-day">30</span>
+              </div>
+              <div class="event-info">
+                <span class="event-month">June</span>
+                <p class="event-title">Sample Diary Date 3</p>
+              </div>
+            </div>
+            <div class="event-divider"></div>
+
+            <div class="event-item">
+              <div class="event-date-box">
+                <span class="edb-day-name">Wednesday</span>
+                <span class="edb-day">9</span>
+              </div>
+              <div class="event-info">
+                <span class="event-month">July</span>
+                <p class="event-title">Open Evening — Year 9 Families</p>
+              </div>
+            </div>
+
+            <!--
+            TO ADD MORE EVENTS copy this block:
+
+            <div class="event-divider"></div>
+            <div class="event-item">
+              <div class="event-date-box">
+                <span class="edb-day-name">Monday</span>
+                <span class="edb-day">14</span>
+              </div>
+              <div class="event-info">
+                <span class="event-month">July</span>
+                <p class="event-title">Your Event Title Here</p>
+              </div>
+            </div>
+            -->
+
+          </div>
+          <div class="events-btns">
+            <a href="#" class="btn btn--navy">Explore our Full Calendar</a>
+            <a href="#" class="btn btn--outline-navy">Term Dates</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Wave decoration — SVG, no image file needed -->
+    <div class="ne-wave-deco" aria-hidden="true">
+      <svg viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg" width="180">
+        <path d="M0 25 Q25 8 50 25 Q75 42 100 25 Q125 8 150 25 Q175 42 200 25" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+        <path d="M0 38 Q25 21 50 38 Q75 55 100 38 Q125 21 150 38 Q175 55 200 38" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+        <path d="M0 12 Q25 -5 50 12 Q75 29 100 12 Q125 -5 150 12 Q175 29 200 12" stroke="#1B3A6B" stroke-width="2.5" fill="none"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       QUOTE BANNER — photo left + quote right
+  ══════════════════════════════════════════════
+
+  HOW TO CHANGE THE QUOTE PHOTO:
+  Change src="images/quote-photo.jpg" below.
+  ══════════════════════════════════════════════ -->
+  <section class="quote-section">
+    <div class="quote-inner">
+
+      <!-- ▼ QUOTE PHOTO — replace src with your image ▼ -->
+      <div class="quote-photo">
+        <img src="images/download.jpg" alt="UTC MediaCity building" loading="lazy" />
+        <!-- Change to: src="images/YOUR-PHOTO.jpg" -->
+      </div>
+
+      <!-- Quote text — no images needed -->
+      <div class="quote-text">
+        <blockquote>
+          "My child is extremely happy here and for the first time in a very long time he has a smile back on his face. There need to be more schools like this one."
+        </blockquote>
+        <cite>UTC@MediaCity parent</cite>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER — white bg, UTC hexagon SVG logo
+       No images needed — SVG icons only
+  ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-top-inner">
+
+        <!-- Logo + address — SVG logo, no image file -->
+        <div class="footer-brand">
+          <div class="utc-hex">
+            <svg viewBox="0 0 120 138" fill="none" xmlns="http://www.w3.org/2000/svg" width="100" height="115">
+              <path d="M60 4 L114 33 L114 105 L60 134 L6 105 L6 33 Z" fill="#0a0a0a"/>
+              <path d="M60 4 L114 33" stroke="#E91E8C" stroke-width="5" stroke-linecap="round"/>
+              <path d="M114 33 L114 105" stroke="#00BCD4" stroke-width="5" stroke-linecap="round"/>
+              <path d="M114 105 L60 134" stroke="#FF9800" stroke-width="5" stroke-linecap="round"/>
+              <path d="M60 134 L6 105" stroke="#4CAF50" stroke-width="5" stroke-linecap="round"/>
+              <path d="M6 105 L6 33" stroke="#9C27B0" stroke-width="5" stroke-linecap="round"/>
+              <path d="M6 33 L60 4" stroke="#2196F3" stroke-width="5" stroke-linecap="round"/>
+              <text x="60" y="85" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="32" fill="white">utc</text>
+            </svg>
+          </div>
+          <div class="footer-address">
+            <p>100-102 Broadway, Salford, M50 2UW</p>
+            <p>0161 661 3947</p>
+            <p>information@utcmediacityuk.org.uk</p>
+          </div>
+          <div class="aldridge-strip">
+            <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <circle cx="26" cy="26" r="26" fill="#1B3A6B"/>
+              <path d="M14 38 L26 12 L26 38 Z" fill="#3CB97A"/>
+              <path d="M26 12 L38 38 L26 38 Z" fill="white" opacity=".9"/>
+              <rect x="18" y="30" width="16" height="3" rx="1.5" fill="white"/>
+            </svg>
+            <div>
+              <strong>ALDRIDGE EDUCATION</strong>
+              <span>Part of the Aldridge Education family of schools.</span>
+            </div>
+            <span class="ald-chevron">›</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">School Outcomes</a></li>
+            <li><a href="#">Admissions Info</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">News Updates</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Frequently Visited</h4>
+          <ul>
+            <li><a href="#">Events Calendar</a></li>
+            <li><a href="#">Term Dates</a></li>
+            <li><a href="#">Parents</a></li>
+            <li><a href="#">Sixth Form</a></li>
+            <li><a href="#">Support Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-item">
+                <div class="si-icon si-facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                </div>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-item">
+                <div class="si-icon si-instagram">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                </div>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-item">
+                <div class="si-icon si-linkedin">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© UTCMC 2026 All rights reserved.</span>
+      <span>Designed by Aldridge Education, developed by Greenhouse School Websites</span>
+      <nav class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies Settings</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
